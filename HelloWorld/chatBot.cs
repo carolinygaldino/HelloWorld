@@ -7,6 +7,8 @@ namespace MyApp // Note: actual namespace depends on the project name.
         static void Main(string[] args)
         {
             int timeOfDay = 21;
+            // && means "logical and"
+            // || meand "logical or"
             if (timeOfDay >= 5 && timeOfDay <= 12)
             {
                 System.Console.WriteLine("Good morning!");
