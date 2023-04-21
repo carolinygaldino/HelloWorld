@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace MyApp // Note: actual namespace depends on the project name.
 {
@@ -6,7 +6,11 @@ namespace MyApp // Note: actual namespace depends on the project name.
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!".Substring(7, 4));
+            string firstName = "Britney";
+            string lastName = "Spears";
+            int age = 39;
+            // Britney's last name is "Spears"
+            Console.WriteLine(firstName + "\'s last name is\" " + lastName + " " + age);
         }
     }
 }
