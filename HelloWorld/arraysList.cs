@@ -9,7 +9,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
             System.Collections.Generic.List<int>
             myList = new System.Collections.Generic.List<int>(myIntArray);
             myList.Add(4567);
-            myList.
+            myList[0] = 9876;
 
             foreach (int element in myList)
             {
