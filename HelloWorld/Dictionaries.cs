@@ -1,3 +1,4 @@
+
 namespace MyApp // Note: actual namespace depends on the project name.
 {
     internal class Program
@@ -11,8 +12,10 @@ namespace MyApp // Note: actual namespace depends on the project name.
             myDict.Add("bim", "07892 123 123");
             myDict.Add("lim", "07892 123 123");
             myDict.Add("gim", "07892 123 123");
+            myDict["gim"] = "gim's new number";
+            foreach (System.Collections.Generic.KeyValuePair<string, string> el in myDict)
 
-            System.Console.WriteLine(myDict["Jim"]);
+            System.Console.WriteLine(el);
 
 
         }
