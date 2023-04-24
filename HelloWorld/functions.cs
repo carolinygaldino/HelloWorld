@@ -2,13 +2,13 @@ namespace MyApp // Note: actual namespace depends on the project name.
 {
     internal class Program
     {
-        static void printSomething()
+        static void printSomething(string fullName)
         {
-            Console.WriteLine("This is a message.");
+            Console.WriteLine("The full name is " + fullName );
         }
         static void Main(string[] args)
         {
-            printSomething();
+            printSomething("Chloe gallima");
         }
     }
 }
